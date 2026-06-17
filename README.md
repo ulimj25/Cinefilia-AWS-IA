@@ -1,9 +1,17 @@
 # Cinefilia en AWS
 Proyecto de IA donde implementamos un pipeline de Bedrock.
 
+## Primera parte
+Limpieza de las reseñas de los usuarios sobre las películas del año *2000* en adelante, tomando los siguientes criterios:
+
+- Reseñas de al menos 30 palabras
+- Normalización de caracteres especiales
+
+![Diagrama Glue-Comprehend](./Media/Glue_Comprehend_PL.png)
+
 # Datos usados
 
-Utilizaremos un dataset de (películas y reseñas en Rotten Tomatos)[https://www.kaggle.com/datasets/andrezaza/clapper-massive-rotten-tomatoes-movies-and-reviews].
+Utilizaremos un dataset de [películas y reseñas en Rotten Tomatos](https://www.kaggle.com/datasets/andrezaza/clapper-massive-rotten-tomatoes-movies-and-reviews).
 Las columnas a utilizar son las siguientes:
 
 ## Columnas para reseñas:
@@ -23,14 +31,14 @@ Las columnas a utilizar son las siguientes:
 - releaseDateStreaming
 
 # Participantes
+- Aco
 - Alan Miguel Crispin Rivera
 - Alan Tonatiuh Romero Garcia
-- Emmanuel Morales Hernández
 - Daniel B.
-- Morthi
-- Luis Miguel Sánchez
-- Evert Cardenas
-- Aco
-- Rodrigo :D
+- Emmanuel Morales Hernández
 - Evelyn B.
+- Evert Cardenas
 - Karen Marquez
+- Luis Miguel Sánchez
+- Morthi
+- Rodrigo :D
